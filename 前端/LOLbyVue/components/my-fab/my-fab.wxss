@@ -1,0 +1,30 @@
+
+page {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	background-color: #efeff4;
+	min-height: 100%;
+	height: auto;
+}
+view {
+	font-size: 14px;
+	line-height: inherit;
+}
+page {
+	height: 100vh;
+}
+.uni-fab-box {
+
+	display: flex;
+
+	flex-direction: row;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+

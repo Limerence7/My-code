@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.my-search-container {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.my-search-container .my-search-box {
+  height: 36px;
+  background-color: #FFFFFF;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-search-container .my-search-box .placeholder {
+  font-size: 15px;
+  margin-left: 5px;
+}
+
