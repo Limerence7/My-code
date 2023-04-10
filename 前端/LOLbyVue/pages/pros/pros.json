@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "职业赛事",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "my-search": "/components/my-search/my-search"
+  }
+}

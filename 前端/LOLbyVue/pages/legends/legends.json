@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "攻略中心",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "my-search": "/components/my-search/my-search",
+    "my-fab": "/components/my-fab/my-fab"
+  }
+}
