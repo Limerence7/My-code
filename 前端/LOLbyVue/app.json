@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/home/home",
+    "pages/legends/legends",
+    "pages/pros/pros",
+    "pages/my/my",
+    "pages/s12/s12",
+    "pages/profile/profile"
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "search/search",
+        "pros_detail/pros_detail",
+        "legends_detail/legends_detail",
+        "share/share"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#0055ff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/TabBars/icon_home.png",
+        "selectedIconPath": "static/TabBars/icon_home_active.png"
+      },
+      {
+        "pagePath": "pages/legends/legends",
+        "text": "攻略中心",
+        "iconPath": "static/TabBars/icon_legends.png",
+        "selectedIconPath": "static/TabBars/icon_legends_active.png"
+      },
+      {
+        "pagePath": "pages/s12/s12",
+        "text": "S12",
+        "iconPath": "static/TabBars/icon_s12.png",
+        "selectedIconPath": "static/TabBars/icon_s12_active.png"
+      },
+      {
+        "pagePath": "pages/pros/pros",
+        "text": "职业赛事",
+        "iconPath": "static/TabBars/icon_pros.png",
+        "selectedIconPath": "static/TabBars/icon_pros_active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/TabBars/icon_my.png",
+        "selectedIconPath": "static/TabBars/icon_my_active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
